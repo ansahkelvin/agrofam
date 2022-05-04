@@ -1,0 +1,62 @@
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  color: #fff;
+}
+
+.header__contents {
+  margin-top: 250px;
+}
+
+.header__title {
+  color: rgba(0, 0, 0, 0.759);
+  font-weight: bold;
+}
+
+.header__image img {
+  width: 100%;
+  margin-top: 70px;
+
+}
+.header__button {
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+  border: 1px solid green;
+  color: green;
+  background-color: white;
+}
+
+.header__button:hover {
+  border: 1px solid white;
+  color: white;
+  background-color: green;
+}
+
+.header__paragraph {
+  margin-top: 20px;
+  color: rgb(120, 119, 119);
+}
+
+.header__button_reverse:hover {
+  border: 1px solid green;
+  color: green;
+  background-color: white;
+}
+.header__button_reverse {
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+  border: 1px solid white;
+  color: white;
+  background-color: green;
+}
+
+@media (max-width: 456px) {
+  .header__contents {
+    margin-top: 120px;
+  }
+}

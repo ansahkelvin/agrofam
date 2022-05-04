@@ -1,0 +1,36 @@
+.blog {
+  padding: 40px;
+}
+.heading {
+  margin: 50px;
+  color: rgb(50, 49, 49);
+}
+
+.blog__card {
+  border: none;
+}
+.blog__title {
+  padding: 10px;
+}
+.blog__body {
+  padding: 10px;
+  color: rgb(141, 140, 140);
+}
+.blog__btn {
+  width: 50%;
+  margin: 20px;
+}
+
+.blog__paragraph {
+    color: grey;
+    margin: 40px;
+}
+
+@media (max-width: 456px) {
+  .blog {
+    padding: 10px;
+  }
+  .blog__card {
+    margin-top: 30px;
+  }
+}

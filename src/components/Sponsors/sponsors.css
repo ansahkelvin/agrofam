@@ -1,0 +1,22 @@
+.sponsors {
+  background-color: rgba(128, 128, 128, 0.467);
+  padding: 40px;
+}
+
+.sponsors__image img {
+  margin-right: 50px;
+  width: 55%;
+}
+
+@media (max-width: 456px) {
+  .sponsors__image img {
+    margin-top: 60px;
+    width: 55%;
+  }
+}
+@media (min-width: 506px) and (max-width: 980px) {
+  .sponsors__image img {
+    margin-top: 60px;
+    width: 55%;
+  }
+}

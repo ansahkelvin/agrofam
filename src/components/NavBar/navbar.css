@@ -1,0 +1,12 @@
+.link {
+  color: green !important;
+}
+.background {
+    background-color:  linear-gradient(rgba(140, 243, 171, 0.288), rgba(18, 254, 18, 0.401)) !important;
+}
+.nav-header {
+    color: green !important;
+    font-size: large;
+    font-weight: bold;
+    
+}

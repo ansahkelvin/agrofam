@@ -1,0 +1,32 @@
+.funding {
+  padding: 50px;
+}
+.funding__title {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.funding_text {
+margin-right: 20px ;
+}
+.funding__image img {
+  width: 100%;
+  border-radius: 50px;
+}
+
+@media (max-width: 456px) {
+  .funding {
+    padding: 10px;
+  }
+  .funding__image  {
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 506px) and (max-width: 980px) {
+  .funding__image  {
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 30px;
+  }
+}
